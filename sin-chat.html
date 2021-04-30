@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+    <title>ChatBoT Crediminuto</title>
+  </head>
+  <body>
+    <div class="position-absolute chatbot">
+      <div class="card chat-room small-chat wide mr-md-5 mb-md-6 px-0 position-absolute border-radius-header-footer-chatbot border-0 bg-chatbot conditionalClose" id="chatbot-card" style="display:none;">
+        <div class="py-2 px-3">
+          <div class="card-header d-flex justify-content-between py-0 border-radius-header-chatbot border-bottom bg-chatbot" id="toggle" style="cursor: pointer;">
+            <div class="heading d-flex justify-content-start">
+              <div class="profile-photo align-items-center d-flex"><img class="avatar mr-2 ml-0" src="img/globo-top-chat.svg" alt="avatar"></div>
+              <div class="data align-items-center d-flex">
+                <p class="name mb-0"><strong>Chat Online</strong></p>
+              </div>
+            </div>
+            <div class="icons grey-text align-items-center d-flex"><a id="closed"><i class="fal fa-chevron-down text-danger"></i></a></div>
+          </div>
+        </div>
+        <div class="my-custom-scrollbar bg-chatbot" id="message">
+          <div class="card-body p-3">
+            <div class="chat-message"></div>
+          </div>
+        </div>
+        <div class="card-footer text-muted pt-1 pb-2 px-3 border-radius-footer-chatbot border-top-0 bg-chatbot">
+          <div class="d-flex mb-md-3">
+            <input class="border-radius-header-footer-chatbot form-control px-md-3 pl-3 pr-5" id="input-send" type="text" placeholder="Escribe aqui...">
+            <div class="position-absolute chatbot-btn-send"><a class="text-muted" id="btn-send" href=""><i class="fal fa-paper-plane"></i></a></div>
+            <div class="align-items-center d-flex ml-2"><a><i class="fas fa-paperclip mr-2"></i></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="globo-flotante ml-auto position-absolute d-block"><a class="deploy-chatbot" href=""><img src="img/globo-flotante.svg"></a></div>
+    </div>
+    <footer>
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/script.js"></script>
+    </footer>
+  </body>
+</html>

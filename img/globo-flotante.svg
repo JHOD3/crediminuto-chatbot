@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60.255" height="60.255" viewBox="0 0 118.255 118.255">
+  <g id="Grupo_281" data-name="Grupo 281" transform="translate(-506.444 -1026.986)">
+    <circle id="Elipse_18" data-name="Elipse 18" cx="59.128" cy="59.128" r="59.128" transform="translate(506.444 1026.986)" fill="#e00012"/>
+    <g id="Grupo_280" data-name="Grupo 280" transform="translate(-23.56)">
+      <path id="Trazado_396" data-name="Trazado 396" d="M576.995,1068.17a24.826,24.826,0,0,0-21.443,37.334l-3.814,12.646,12.152-4.072a24.824,24.824,0,1,0,13.1-45.908Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Trazado_397" data-name="Trazado 397" d="M578.384,1068.079a24.827,24.827,0,1,1,45.15,19.893l3.814,12.646-12.152-4.073a24.708,24.708,0,0,1-13.1,3.739q-.493,0-.983-.019" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <circle id="Elipse_19" data-name="Elipse 19" cx="2.632" cy="2.632" r="2.632" transform="translate(574.077 1090.545)" fill="#fff"/>
+      <circle id="Elipse_20" data-name="Elipse 20" cx="2.632" cy="2.632" r="2.632" transform="translate(584.606 1090.545)" fill="#fff"/>
+      <circle id="Elipse_21" data-name="Elipse 21" cx="2.632" cy="2.632" r="2.632" transform="translate(563.548 1090.545)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
